@@ -1,0 +1,35 @@
+{
+  "name": "jwt-flip-middleware",
+  "version": "1.0.0",
+  "description": "Express middleware, which if body is string converts from JWT => JSON if JSON => JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirwin517/jwt-flip-middleware.git"
+  },
+  "keywords": [
+    "jwt",
+    "flip",
+    "middleware",
+    "json",
+    "web",
+    "token",
+    "express"
+  ],
+  "author": "dirwin517",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dirwin517/jwt-flip-middleware/issues"
+  },
+  "homepage": "https://github.com/dirwin517/jwt-flip-middleware#readme",
+  "dependencies": {
+    "jsonwebtoken": "^7.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}
